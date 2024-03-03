@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Clear Storage",
+    "version": "1.0",
+    "description": "Elimina rápidamente los datos almacenados en localStorage o Cookies en la ventana en la que te encuentres, sin necesidad de confirmación adicional.",
+    "icons": {
+        "128": "icon.png"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
